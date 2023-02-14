@@ -1,0 +1,27 @@
+.main-greeting {
+    margin: 6rem 0 5rem 0;
+    padding: 0 0 0 10vw;
+    letter-spacing: 0.1rem;
+}
+
+.purple {
+    color: #6633ff;
+}
+
+.small {
+    font-size: 1rem;
+}
+
+.large {
+    font-size: 1.8rem;
+}
+
+.gray {
+    color: #aaaaaa;
+}
+
+@media (max-width:768px) {
+    .large {
+        font-size: 1.2rem;
+    }
+}
