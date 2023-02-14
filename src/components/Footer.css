@@ -1,0 +1,26 @@
+#footer {
+    position: sticky;
+    top: 100%;
+    color: #aaaaaa;
+    padding: 0 0 2rem 0;
+    max-height: 90vh;
+    margin-top: auto; /* may cause issues */
+}
+
+#footer-items {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#footer-items > li:hover {
+    color: #6633ff;
+}
+
+@media (max-width: 768px) {
+    #footer-items {
+        font-size: 0.8rem;
+        padding: 0 0 0.3rem 0;
+    }
+}
