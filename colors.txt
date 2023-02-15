@@ -1,0 +1,12 @@
+-- Text colors -- 
+Purple: #6633ff
+Gray: #aaaaaa
+White: #f0f6fc
+
+-- Background colors --
+Blue-ish black: #171c28
+
+-- Fonts -- 
+Main: Poppins
+
+
