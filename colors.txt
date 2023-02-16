@@ -8,5 +8,6 @@ Blue-ish black: #171c28
 
 -- Fonts -- 
 Main: Poppins
+Secondary: Roboto Mono
 
 

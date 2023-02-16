@@ -5,6 +5,8 @@ import Body from './containers/Body'
 import Footer from './components/Footer'
 import Greeting from './components/Greeting'
 import AboutMe from './components/AboutMe'
+import Lorem from './components/Lorem'
+import Fade from 'react-reveal/Fade'
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
       <>
         <Body>
           <Navbar />
-          <Greeting />
-          <AboutMe />
+          <Fade >
+            <Greeting />
+            <AboutMe />
+          </Fade>
           <Footer />
         </Body>
       </>
