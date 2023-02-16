@@ -1,4 +1,22 @@
 .about-me {
     margin: 0 0 5rem 0;
-    padding: 0 0 0 10vw;
+    padding: 0 10vw 0 10vw;
+    max-width: 900px;
+}
+
+.purple {
+    color: #6633ff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.small {
+    font-size: clamp(1rem, 1vw, 2rem)
+}
+
+.large {
+    font-size: clamp(6rem, 4vw, 10rem);
+}
+
+.gray {
+    color: #aaaaaa;
 }
