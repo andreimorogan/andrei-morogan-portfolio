@@ -2,7 +2,7 @@ import React from "react";
 import Logo from '../assets/logo.svg';
 import './Navbar.css';
 import { useState } from "react";
-import Fade from 'react-reveal/Fade'
+import { Fade } from "react-awesome-reveal";
 
 const Navbar = () => {
 
@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <>
-            <Fade top>
+            <Fade direction="down" triggerOnce="true">
                 <nav>
                     <img src={Logo} alt="The logo." className="logo-img" />
                     <div className="group">

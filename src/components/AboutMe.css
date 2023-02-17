@@ -1,7 +1,8 @@
 .about-me {
     margin: 0 0 5rem 0;
     padding: 0 10vw 0 10vw;
-    max-width: 900px;
+    width: 100%;
+    aspect-ratio: 100 / 29;
 }
 
 .purple {
