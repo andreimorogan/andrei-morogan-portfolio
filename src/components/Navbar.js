@@ -13,11 +13,12 @@ const Navbar = () => {
     }
 
     let toggleClassCheck = btnState ? ' active' : null;
+    let navClassCheck = btnState ? ' nav-margin' : null;
 
     return (
         <>
             <Fade direction="down" triggerOnce="true">
-                <nav>
+                <nav className= {navClassCheck}>
                     <img src={Logo} alt="The logo." className="logo-img" />
                     <div className="group">
                         <ul className= {`navigation ${toggleClassCheck}`}>
