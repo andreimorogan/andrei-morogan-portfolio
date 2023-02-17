@@ -1,8 +1,13 @@
 .about-me {
     margin: 0 0 5rem 0;
     padding: 0 10vw 0 10vw;
-    width: 100%;
-    aspect-ratio: 100 / 29;
+    max-width: 65%;
+}
+
+@media (max-width:768px) {
+    .about-me {
+        max-width: 90%; 
+    }
 }
 
 .purple {

@@ -94,7 +94,7 @@ nav .logo-img {
     }
     .navigation {
         position: fixed;
-        left: -100%;
+        right: -100%;
         top: 70px;
         gap: 0.4rem;
         flex-direction: column;
@@ -106,8 +106,9 @@ nav .logo-img {
         line-height: 2.5rem;
     }
     .navigation.active {
-        left: 0;
+        right: 0;
         position: absolute;
+        background-color: #6633ff;
     }
     nav ul li a {
         letter-spacing: 0.1rem;
@@ -118,5 +119,8 @@ nav .logo-img {
     }
     .wrapper {
         margin: 8rem 0 0 0;
+    }
+    .nav-margin {
+        margin-bottom: 8rem;
     }
 }
