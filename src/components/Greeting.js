@@ -1,16 +1,16 @@
 import React from "react";
-import './Greeting.css';
+import styles from './Greeting.module.css';
 
 const Greeting = () => {
     return (
-        <section className="main-greeting">
-            <h1 className="purple small">
+        <section className={styles['main-greeting']}>
+            <h1 className={`${styles.purple} ${styles.small}`}>
                 Hello, I'm
             </h1>
-            <h3 className="large">
+            <h3 className={styles.large}>
                 Andrei Morogan. 
             </h3>
-            <p className="large gray">An aspiring web developer.</p>
+            <p className={`${styles.large} ${styles.gray}`}>An aspiring web developer.</p>
         </section>
     );
 }
