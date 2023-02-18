@@ -1,9 +1,9 @@
 import React from 'react';
-import './Lorem.css'
+import styles from './Lorem.module.css'
 
 const Lorem = () => {
     return (
-        <p className='main-greeting '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatum dolores eum quae corrupti enim exercitationem alias tempore. Optio repudiandae ipsa ea aliquid nulla quod recusandae exercitationem quis facilis? Nostrum?</p>
+        <p className={styles['main-greeting']}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatum dolores eum quae corrupti enim exercitationem alias tempore. Optio repudiandae ipsa ea aliquid nulla quod recusandae exercitationem quis facilis? Nostrum?</p>
     );
 }
 
