@@ -17,23 +17,8 @@ function App() {
           <Fade triggerOnce="true">
             <Greeting />
             <AboutMe />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
-            <Lorem />
+            <AboutMe />
+            <AboutMe />
           </Fade>
           <Footer />
         </Body>

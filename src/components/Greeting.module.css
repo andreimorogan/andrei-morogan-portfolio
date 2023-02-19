@@ -1,9 +1,12 @@
 .main-greeting {
-    margin: 6rem 0 5rem 0;
-    padding: 0 0 0 10vw;
+    margin: 6rem 0 5rem 0;  
+    padding: 0 1vw 0 12vw;
     letter-spacing: 0.1rem;
-    line-height: clamp(1.5rem, 2.9vh, 5rem);
+    display: flex;
+    flex-flow: column wrap;
+    column-gap: 1px;
 }
+
 
 .purple {
     color: #6633ff;
@@ -15,12 +18,21 @@
 }
 
 .large {
-    font-size: clamp(1rem, 2vw, 3rem);
+    font-size: clamp(1.7rem, 1.7vw, 2.7rem);
 }
 
 .gray {
     color: #aaaaaa;
 }
 
+h3.large, h1.small, p.large {
+    margin: 0.8rem 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .large {
+        font-size: clamp(1.3rem, 1.3vw, 2.3rem);
+    }
+}
 
 
