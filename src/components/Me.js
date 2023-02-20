@@ -1,9 +1,10 @@
 import React from "react";
-import "./Me.module.css"
+import styles from "./Me.module.css"
+import me from '../assets/me.jpg'
 
 const Me = () => {
     return (
-        <h1>Hello</h1>
+        <img className={styles.me} src={me} alt="Myself"/>
     );
 }
 

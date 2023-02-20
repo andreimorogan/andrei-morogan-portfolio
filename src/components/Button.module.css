@@ -1,8 +1,9 @@
 .styled-button {
+    min-width: 10rem;   
     font-size: 1rem;
     display: flex;
-    align-items: center;
-    margin: 1rem 0 0 12vw;
+    justify-content: center;
+    align-content: center;
     padding: 1rem;
     cursor: pointer;
     background-color: #171c28;
@@ -14,5 +15,15 @@
 
 .styled-button:hover {
     color: #6633ff;
-    padding: 1.1rem;
+}
+
+.styled-button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+@media (max-width: 768px) {
+    .styled-button {
+        max-width: 7rem;
+    }
 }
