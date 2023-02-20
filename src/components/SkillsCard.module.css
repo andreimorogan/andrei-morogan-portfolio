@@ -1,0 +1,64 @@
+.my-skills {
+    margin: 7rem 0 5rem 0;
+    padding: 0 15vw 0 12vw;
+    max-width: 65%;
+    display: flex;
+    flex-flow: column wrap; 
+    box-sizing: border-box;
+}
+
+
+
+@media (max-width:768px) {
+    .my-skills {
+        max-width: 90%; 
+    }
+    .large {
+        font-size: clamp(1.3rem, 1.3vw, 2.3rem);
+    }
+}
+
+.purple {
+    color: #6633ff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.small {
+    font-size: clamp(1rem, 1vw, 2rem)
+}
+
+.large {
+    font-size: clamp(1.7rem, 1.7vw, 3.7rem);
+}
+
+.gray {
+    color: #aaaaaa;
+}
+
+.white {
+    color: #f0f6fc;
+}
+
+
+hr{
+    width: 120%;
+    overflow: hidden;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10rem, 1fr));
+        max-width: 65%;
+}
+
+@media (max-width: 768px) {
+    .list {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 478px) {
+    .list {
+        grid-template-columns: 1fr;
+    }
+}

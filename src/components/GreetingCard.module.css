@@ -5,6 +5,7 @@
     display: flex;
     flex-flow: column wrap;
     column-gap: 1px;
+    max-width: 65%;
 }
 
 
@@ -32,6 +33,9 @@ h3.large, h1.small, p.large {
 @media (max-width: 768px) {
     .large {
         font-size: clamp(1.3rem, 1.3vw, 2.3rem);
+    }
+    .main-greeting {
+        max-width: 90%;
     }
 }
 

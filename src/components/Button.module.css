@@ -1,0 +1,18 @@
+.styled-button {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 0 12vw;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #171c28;
+    color: #f0f6fc;
+    font-family: 'Roboto Mono', monospace;
+    border: 1px solid #6633ff;
+    border-radius: 8px;
+}
+
+.styled-button:hover {
+    color: #6633ff;
+    padding: 1.1rem;
+}
