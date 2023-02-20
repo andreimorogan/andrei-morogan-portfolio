@@ -3,10 +3,11 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Body from './containers/Body';
 import Footer from './components/Footer';
-import Greeting from './components/Greeting';
-import AboutMe from './components/AboutMe';
-import Lorem from './components/Lorem';
+import GreetingCard from './components/GreetingCard';
+import SectionCard from './components/SectionCard';
 import { Fade } from "react-awesome-reveal";
+import SkillsCard from './components/SkillsCard';
+import Button from "./components/Button"
 
 function App() {
   return (
@@ -15,12 +16,13 @@ function App() {
         <Body>
           <Navbar />
           <Fade triggerOnce="true">
-            <Greeting />
-            <AboutMe />
-            <AboutMe />
-            <AboutMe />
+            <GreetingCard />
+            <SectionCard />
+            <SkillsCard />
+            <Button text={'Contact'} />
+            <Button text={'My Projects'} /> 
+            <Footer />
           </Fade>
-          <Footer />
         </Body>
       </>
     </React.StrictMode>

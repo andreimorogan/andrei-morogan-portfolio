@@ -57,9 +57,11 @@ nav ul li a:hover::before {
 
 nav .logo-img {
     max-height: 9rem;
-    max-width: 4rem;
+    max-width: 3.5rem;
     border-radius: 20%;
     z-index: 10;
+    position: relative;
+    right: 2.8rem;
 }
 
 .hamburger {
@@ -115,7 +117,7 @@ nav .logo-img {
     }
     .logo-img {
         position: relative;
-        right: 3rem;
+        /* right: 5rem; */
     }
     .wrapper {
         margin: 8rem 0 0 0;

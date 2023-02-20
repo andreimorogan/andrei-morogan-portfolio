@@ -1,8 +1,8 @@
 import React from "react";
-import styles from './AboutMe.module.css'
+import styles from './SectionCard.module.css'
 
 
-const AboutMe = () => {
+const SectionCard = () => {
     return(
         <section className={styles['about-me']}>
             <h1 className={styles.large}>About Me</h1>
@@ -17,4 +17,4 @@ const AboutMe = () => {
     );
 }
 
-export default AboutMe
+export default SectionCard

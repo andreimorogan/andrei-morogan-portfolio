@@ -1,7 +1,7 @@
 import React from "react";
-import styles from './Greeting.module.css';
+import styles from './GreetingCard.module.css';
 
-const Greeting = () => {
+const GreetingCard = () => {
     return (
         <section className={styles['main-greeting']}>
             <h1 className={`${styles.purple} ${styles.small}`}>
@@ -15,4 +15,4 @@ const Greeting = () => {
     );
 }
 
-export default Greeting;
+export default GreetingCard;
