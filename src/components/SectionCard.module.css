@@ -5,6 +5,7 @@
     display: flex;
     flex-flow: column wrap; 
     box-sizing: border-box;
+    position: relative;
 }
 
 
@@ -39,4 +40,34 @@
 hr{
     width: 120%;
     overflow: hidden;
+}
+
+
+
+.me {
+    max-width: 25rem;
+    max-height: 25rem;
+    object-fit: cover;
+    position: absolute;
+    left: 100%;
+    top: 18%;
+    border-radius: 5px;
+    transition: all 0.45s ease-in-out;
+    mix-blend-mode: multiply;
+}
+
+@media (min-width: 2500px) {
+    .me {
+        max-width: 35rem;
+        max-height: 35rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .me {
+        position: static;
+        margin-top: 1rem;
+        max-width: 20rem;
+        max-height: 20rem;
+    }
 }
