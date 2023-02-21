@@ -61,7 +61,7 @@ nav .logo-img {
     border-radius: 20%;
     z-index: 10;
     position: relative;
-    right: 2.8rem;
+    right: 1.8rem;
 }
 
 .hamburger {
@@ -115,14 +115,21 @@ nav .logo-img {
     nav ul li a {
         letter-spacing: 0.1rem;
     }
-    .logo-img {
+    nav .logo-img {
         position: relative;
-        /* right: 5rem; */
+        right: 2.8rem;
     }
     .wrapper {
         margin: 8rem 0 0 0;
     }
     .nav-margin {
         margin-bottom: 8rem;
+    }
+}
+
+@media (min-width: 2500px) {
+    nav .logo-img {
+        max-height: 15rem;
+        max-width: 5rem;
     }
 }

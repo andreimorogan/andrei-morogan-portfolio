@@ -9,7 +9,6 @@ import { Fade } from "react-awesome-reveal";
 import SkillsCard from './components/SkillsCard';
 import Button from "./components/Button"
 import InlineContainer from './containers/InlineContainer';
-import Me from './components/Me';
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
           <Fade triggerOnce="true">
             <GreetingCard />
             <SectionCard />
-            <Me />
             <SkillsCard />
             <InlineContainer>
               <Button text={'Contact'} />
