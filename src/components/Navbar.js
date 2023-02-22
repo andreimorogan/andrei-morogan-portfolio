@@ -23,9 +23,9 @@ const Navbar = () => {
                     <img src={Logo} alt="The logo." className={styles['logo-img']} />
                     <div className={styles.group}>
                         <ul className= {`${styles.navigation} ${toggleClassCheck}`}>
-                            <li><Link to="about">About</Link></li>
-                            <li><Link to="projects">Projects</Link></li>
-                            <li><Link to="contact">Contact</Link></li>
+                            <li><Link to="/">About</Link></li>
+                            <li><Link to="../projects">Projects</Link></li>
+                            <li><Link to="../contact">Contact</Link></li>
                         </ul>
                     </div>
                     <div className={`${styles.hamburger} ${toggleClassCheck}`} onClick={handleClick}>

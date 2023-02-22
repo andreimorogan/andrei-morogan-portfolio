@@ -1,0 +1,43 @@
+.contact-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+    line-height: 4rem;
+    margin: 5vh 0 25vh 0;
+}
+
+.highlight > a {
+    color: inherit;
+    text-decoration-color: #6633ff;
+
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+.highlight:hover {
+    background-color: #6633ff;
+    transition: 0.3s ease-in;
+}
+
+.small {
+    font-size: clamp(1.5rem, 1.5vw, 2rem)
+}
+
+@media (max-width: 969px) {
+    .small {
+        font-size: clamp(1rem, 1vw, 2rem)
+    }
+}
+
+@media (max-width:768px) {
+    .contact-section {
+        padding: 2rem;
+        line-height: 2.5rem;
+    }
+
+}

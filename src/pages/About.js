@@ -22,8 +22,8 @@ function About() {
           <Fade triggerOnce="true">
             <SkillsCard />
             <InlineContainer>
-              <Button text={'Contact'} />
-              <Button text={'My Projects'} /> 
+              <Button text={'Contact'} link={'contact'} />
+              <Button text={'My Projects'} link={'projects'} /> 
             </InlineContainer>
             <Footer />
           </Fade>

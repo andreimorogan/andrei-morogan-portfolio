@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from "react-dom/client";
 import './App.css';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -19,9 +18,5 @@ function App() {
     </React.StrictMode>
   );
 } 
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
 
 export default App;
