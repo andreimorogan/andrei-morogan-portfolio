@@ -1,22 +1,27 @@
 import React from 'react';
+import ReactDOM from "react-dom/client";
 import './App.css';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import { BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import { Routes, Route, HashRouter} from 'react-router-dom'
+import Contact from './pages/Contact'
 
 function App() {
   return (
     <React.StrictMode>
-      <BrowserRouter>
-        <main>
+      <HashRouter>
           <Routes>
             <Route index element={<About />} />
+            <Route path='contact' element={<Contact />} />
             <Route path='projects' element={<Projects />} />
           </Routes>
-        </main>
-      </BrowserRouter>
+      </HashRouter>
     </React.StrictMode>
   );
-}
+} 
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
 
 export default App;

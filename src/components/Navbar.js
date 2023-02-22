@@ -3,6 +3,7 @@ import Logo from '../assets/logo.svg';
 import styles from './Navbar.module.css';
 import { useState } from "react";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -22,9 +23,9 @@ const Navbar = () => {
                     <img src={Logo} alt="The logo." className={styles['logo-img']} />
                     <div className={styles.group}>
                         <ul className= {`${styles.navigation} ${toggleClassCheck}`}>
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="projects.html">Projects</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><Link to="about">About</Link></li>
+                            <li><Link to="projects">Projects</Link></li>
+                            <li><Link to="contact">Contact</Link></li>
                         </ul>
                     </div>
                     <div className={`${styles.hamburger} ${toggleClassCheck}`} onClick={handleClick}>
