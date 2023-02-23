@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./InlineContainer.module.css"
+import styles from "../styles/InlineContainer.module.css"
 
 const InlineContainer = (props) => {
     return(

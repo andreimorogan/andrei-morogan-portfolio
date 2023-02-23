@@ -1,6 +1,6 @@
-import React from "react";
+import React from   "react";
 import Logo from '../assets/logo.svg';
-import styles from './Navbar.module.css';
+import styles from '../styles/Navbar.module.css';
 import { useState } from "react";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";

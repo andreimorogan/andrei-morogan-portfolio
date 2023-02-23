@@ -1,0 +1,23 @@
+.small {
+    font-size: clamp(1rem, 1vw, 2rem)
+}
+
+
+.purple {
+    color: #6633ff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.gray {
+    color: #aaaaaa;
+}
+
+
+.white {
+    color: #f0f6fc;
+}
+
+.aligned {
+    padding: 0 0 0 12vw;
+}
+

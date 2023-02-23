@@ -4,6 +4,7 @@ import Body from '../containers/Body';
 import Footer from '../components/Footer';
 import { Fade } from "react-awesome-reveal";
 import ContactSection from '../components/ContactSection';
+import Form from '../components/Form';
 
 function Contact() {
   return (
@@ -13,6 +14,7 @@ function Contact() {
           <Navbar />
           <Fade triggerOnce="true" delay="70">
             <ContactSection />
+            <Form />
             <Footer />
           </Fade>
         </Body>
