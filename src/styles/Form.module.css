@@ -1,0 +1,6 @@
+.contact { 
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0 12vw 0 12vw;
+    line-height: 2rem;
+}

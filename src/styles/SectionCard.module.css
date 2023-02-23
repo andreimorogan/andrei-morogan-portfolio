@@ -19,22 +19,12 @@
     }
 }
 
-.purple {
-    color: #6633ff;
-    font-family: 'Roboto Mono', monospace;
-}
 
-.small {
-    font-size: clamp(1rem, 1vw, 2rem)
-}
 
 .large {
     font-size: clamp(1.7rem, 1.7vw, 3.7rem);
 }
 
-.gray {
-    color: #aaaaaa;
-}
 
 
 hr{
