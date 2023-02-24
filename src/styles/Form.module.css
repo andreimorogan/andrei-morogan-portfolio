@@ -1,6 +1,54 @@
-.contact { 
+.container {
     display: flex;
     flex-flow: column wrap;
-    padding: 0 12vw 0 12vw;
-    line-height: 2rem;
+    padding-right: 12vw;
+    gap: 0.6rem;
+    margin-bottom: 35vh;
+}
+
+input[type=submit] {
+    width: 20%;
+    padding: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: #171c28;
+    color: #f0f6fc;
+    font-family: 'Roboto Mono', monospace;
+    border: 1px solid #6633ff;
+    border-radius: 8px;
+}
+
+input[type=submit]:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color: #6633ff;
+  }
+
+input[type=text], input[type=email] {
+    width: 45%;
+    height: 2rem;
+}
+
+textarea {
+    width: 45%;
+    height: 10rem;
+    resize: vertical;
+}
+
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: #6633ff;
+    outline: 0 none;
+}
+
+@media (max-width: 768px) {
+    input[type=submit] {
+        width: 40%;
+    }
+    textarea {
+        width: 100%;
+    }
+    input[type=text], input[type=email] {
+        width: 100%;
+    }
 }
