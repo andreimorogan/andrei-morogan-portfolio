@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/ContactSection.module.css"
 import common from "../styles/Common.module.css"
 

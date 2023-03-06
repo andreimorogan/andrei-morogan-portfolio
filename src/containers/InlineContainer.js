@@ -1,4 +1,3 @@
-import React from "react"
 import styles from "../styles/InlineContainer.module.css"
 
 const InlineContainer = (props) => {
