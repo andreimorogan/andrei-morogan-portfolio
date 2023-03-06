@@ -3,7 +3,7 @@
     flex-flow: column wrap;
     padding-right: 12vw;
     gap: 0.6rem;
-    margin-bottom: 35vh;
+    margin-bottom: 10vh;
 }
 
 input[type=submit] {

@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+    width: 20rem;
+    height: 27rem;
+    border: 1px solid #6633ff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 0.5rem;
+    transition: ease-in-out 0.3s;
+}
+
+.wrapper:hover {
+    transform: translateY(-2rem);
+}
+
+.logo {
+    max-height: 13rem;
+    max-width: 5.5rem;
+}
+
+.github {
+    position: relative;
+    left: 92%;
+    bottom: 6.5%;
+}
+
+.github:hover {
+    color: #6633ff;
+}
+
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 16rem;
+        height: 24rem;
+    }
+}

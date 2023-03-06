@@ -5,18 +5,21 @@ import Footer from '../components/Footer';
 import { Fade } from "react-awesome-reveal";
 import ContactSection from '../components/ContactSection';
 import Form from '../components/Form';
+import ContactIcons from '../components/ContactIcons';
 
 function Contact() {
   return (
     <React.StrictMode>
       <>    
         <Body>
-          <Navbar />
-          <Fade triggerOnce="true" delay="70">
+          <Fade triggerOnce="true" cascade>
+            <ContactIcons />
+            <Navbar />
             <ContactSection />
             <Form />
-            <Footer />
           </Fade>
+          <ContactIcons />
+          <Footer />
         </Body>
       </>
     </React.StrictMode>

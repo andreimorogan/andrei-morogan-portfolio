@@ -8,14 +8,16 @@ import { Fade } from "react-awesome-reveal";
 import SkillsCard from '../components/SkillsCard';
 import Button from "../components/Button"
 import InlineContainer from '../containers/InlineContainer';
+import ContactIcons from '../components/ContactIcons';
 
 function About() {
   return (
     <React.StrictMode>
       <>
         <Body>
-          <Navbar />
-          <Fade triggerOnce="true" delay="70">
+          <Fade triggerOnce="true" cascade>
+            <ContactIcons />
+            <Navbar />
             <GreetingCard />
             <SectionCard />
           </Fade>
@@ -25,8 +27,9 @@ function About() {
               <Button text={'Contact'} link={'contact'} />
               <Button text={'My Projects'} link={'projects'} /> 
             </InlineContainer>
-            <Footer />
           </Fade>
+          <Footer />
+          <ContactIcons />
         </Body>
       </>
     </React.StrictMode>
