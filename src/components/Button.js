@@ -7,4 +7,4 @@ const Button = ({text, link}) => {
     );
 }  
 
-export default Button
+export default Button;

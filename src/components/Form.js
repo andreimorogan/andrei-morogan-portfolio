@@ -23,17 +23,22 @@ const Form = () => {
 
 
     const onMessageSubmit = () => {
-        fetch('http://localhost:3001/submit', {
-            method: 'post',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({
-                name: name,
-                email: email,
-                message: message
+        if (name !== '' && email !== '' && message !== '') {
+            fetch('http://localhost:3001/submit', {
+                method: 'post',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    name: name,
+                    email: email,
+                    message: message
+                })
             })
-        })
-        .catch((err) => console.log(err));
-        document.getElementById('contact-form').reset();
+            .catch((err) => console.log(err));
+
+            alert('Thank you! The message has been sent.')
+            
+            document.getElementById('contact-form').reset();
+        } 
     }
 
 

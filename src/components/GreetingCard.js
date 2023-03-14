@@ -10,7 +10,7 @@ const GreetingCard = () => {
             <h3 className={styles.large}>
                 Andrei Morogan. 
             </h3>
-            <p className={`${styles.large} ${common.gray}`}>An aspiring web developer.</p>
+            <p className={`${styles.large} ${common.gray}`}>I'm a web developer.</p>
         </section>
     );
 }
