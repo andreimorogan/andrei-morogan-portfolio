@@ -24,7 +24,7 @@ const Form = () => {
 
     const onMessageSubmit = () => {
         if (name !== '' && email !== '' && message !== '') {
-            fetch('http://localhost:3001/submit', {
+            fetch('https://andrei-morogan-portfolio-backend.onrender.com/submit', {
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
