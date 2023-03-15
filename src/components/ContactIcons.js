@@ -15,7 +15,7 @@ const ContactIcons = () => {
                 <div className={styles.container}>
                     <a href="https://www.github.com/andreimorogan" target="_blank"><AiOutlineGithub className={styles.icon} /></a>
                     <a href="https://www.linkedin.com/in/andreimorogan" target="_blank"><AiFillLinkedin className={styles.icon} /></a>
-                    <a href="https://drive.google.com/file/d/1-l7lqzLC9QyCTNDhHE3jUuJoMgnDttsj/view" target="_blank"><AiOutlineAudit className={styles.icon} /></a>
+                    <a href="https://drive.google.com/file/d/1B740WXkSntA-jwWjnX4gWOZ84gnQqxt3/view" target="_blank"><AiOutlineAudit className={styles.icon} /></a>
                     <a href="mailto:dev.andreimorogan@gmail.com"><AiOutlineMail className={styles.icon} /></a>
                 </div>
             </IconContext.Provider>
