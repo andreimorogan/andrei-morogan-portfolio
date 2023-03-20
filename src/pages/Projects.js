@@ -17,9 +17,9 @@ function Projects() {
           <Fade triggerOnce="true" cascade>
             <ContactIcons />
             <GridContainer>
-              <ProjectCard link='#' gitLink={'https://github.com/andreymorogan/boot-shop'}  logo={BootShop} name={'The Boot Shop'} description={'Work-in-progress. A fictional e-commerce with the front-end built using React-Bootstrap.'} />
-              <ProjectCard link='#' gitLink={'https://github.com/andreymorogan/face-recognition'}  logo={FaceRecognition} name={'Face recognition app'} description={'Work-in-progress. An app that detects faces from images, with the help of the Clarifai API.'} />
-              <ProjectCard link='#' gitLink={'https://github.com/andreymorogan/andrei-morogan-portfolio'}  logo={logo} name={'My Portfolio'} description={'Pretty much done. My personal hub for hosting my projects and other relevant info.'} />
+              <ProjectCard link='https://andreimorogan.github.io/boot-shop/' gitLink={'https://github.com/andreimorogan/boot-shop'}  logo={BootShop} name={'The Boot Shop'} description={'Work-in-progress. A fictional e-commerce with the front-end built using React-Bootstrap.'} />
+              <ProjectCard link='#' gitLink={'https://github.com/andreimorogan/face-recognition'}  logo={FaceRecognition} name={'Face recognition app'} description={'Work-in-progress. An app that detects faces from images, with the help of the Clarifai API.'} />
+              <ProjectCard link='#' gitLink={'https://github.com/andreimorogan/andrei-morogan-portfolio'}  logo={logo} name={'My Portfolio'} description={'Pretty much done. My personal hub for hosting my projects and other relevant info.'} />
             </GridContainer>
           </Fade>
           <Footer />
