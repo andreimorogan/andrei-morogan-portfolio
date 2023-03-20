@@ -1,6 +1,6 @@
-import React from "react";
-import styles from '../styles/SkillsCard.module.css'
-import common from "../styles/Common.module.css"
+import React from 'react';
+import styles from './SkillsCard.module.css';
+import common from '../../styles/Common.module.css';
 
 
 const SkillsCard = () => {

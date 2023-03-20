@@ -1,7 +1,7 @@
-import React from "react";
-import styles from '../styles/SectionCard.module.css'
-import me from '../assets/me.jpg'
-import common from "../styles/Common.module.css"
+import React from 'react';
+import styles from './SectionCard.module.css';
+import me from '../../assets/me.jpg';
+import common from '../../styles/Common.module.css';
 
 
 const SectionCard = () => {

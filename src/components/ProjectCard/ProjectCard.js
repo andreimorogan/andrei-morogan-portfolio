@@ -1,7 +1,7 @@
-import styles from "../styles/ProjectCard.module.css";
-import common from "../styles/Common.module.css";
-import { AiFillGithub} from "react-icons/ai";
-import { IconContext } from "react-icons";
+import styles from './ProjectCard.module.css';
+import common from '../../styles/Common.module.css';
+import { AiFillGithub} from 'react-icons/ai';
+import { IconContext } from 'react-icons';
 
 
 

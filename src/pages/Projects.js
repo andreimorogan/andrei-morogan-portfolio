@@ -1,13 +1,13 @@
-import Navbar from '../components/Navbar';
-import Body from '../containers/Body';
-import Footer from '../components/Footer';
+import Navbar from '../components/Navbar/Navbar';
+import Body from '../containers/Body/Body';
+import Footer from '../components/Footer/Footer';
 import { Fade } from "react-awesome-reveal";
-import ContactIcons from '../components/ContactIcons';
-import ProjectCard from '../components/ProjectCard';
-import logo from '../assets/logo.svg'
-import GridContainer from '../containers/GridContainer';
+import ContactIcons from '../components/ContactIcons/ContactIcons';
+import ProjectCard from '../components/ProjectCard/ProjectCard';
+import logo from '../assets/logo.svg';
+import GridContainer from '../containers/GridContainer/GridContainer';
 import BootShop from '../assets/boot-shop.svg';
-import FaceRecognition from '../assets/face-recognition.png'
+import FaceRecognition from '../assets/face-recognition.png';
 
 function Projects() {
   return (

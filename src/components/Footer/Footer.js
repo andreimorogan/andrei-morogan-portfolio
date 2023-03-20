@@ -1,4 +1,5 @@
-import styles from "../styles/Footer.module.css"
+import styles from './Footer.module.css';
+
 const Footer = () => {
     return (
         <footer id={styles.footer}>

@@ -1,10 +1,10 @@
-import { IconContext } from "react-icons";
-import { AiFillLinkedin } from "react-icons/ai";
-import { AiOutlineGithub } from "react-icons/ai";
-import { AiOutlineAudit } from "react-icons/ai";
-import { AiOutlineMail } from "react-icons/ai";
-import styles from '../styles/ContactIcons.module.css';
-import { Fade } from "react-awesome-reveal";
+import { IconContext } from 'react-icons';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiOutlineGithub } from 'react-icons/ai';
+import { AiOutlineAudit } from 'react-icons/ai';
+import { AiOutlineMail } from 'react-icons/ai';
+import styles from './ContactIcons.module.css';
+import { Fade } from 'react-awesome-reveal';
 
 
 

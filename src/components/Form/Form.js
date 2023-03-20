@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import styles from '../styles/Form.module.css';
-import common from '../styles/Common.module.css';
+import styles from './Form.module.css';
+import common from '../../styles/Common.module.css';
 
 const Form = () => {
 
@@ -24,7 +24,7 @@ const Form = () => {
 
     const onMessageSubmit = () => {
         if (name !== '' && email !== '' && message !== '') {
-            fetch('https://andrei-morogan-portfolio-backend.onrender.com/submit', {
+            fetch('https://andrei-morogan-portfolio-backend.onrender.com/submit', { // Replace with http://localhost:3001/submit to run locally
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({

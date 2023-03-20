@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Body from '../containers/Body';
-import Footer from '../components/Footer';
-import GreetingCard from '../components/GreetingCard';
-import SectionCard from '../components/SectionCard';
-import { Fade } from "react-awesome-reveal";
-import SkillsCard from '../components/SkillsCard';
-import Button from "../components/Button"
-import InlineContainer from '../containers/InlineContainer';
-import ContactIcons from '../components/ContactIcons';
+import Navbar from '../components/Navbar/Navbar';
+import Body from '../containers/Body/Body';
+import Footer from '../components/Footer/Footer';
+import GreetingCard from '../components/GreetingCard/GreetingCard';
+import SectionCard from '../components/SectionCard/SectionCard';
+import { Fade } from 'react-awesome-reveal';
+import SkillsCard from '../components/SkillsCard/SkillsCard';
+import Button from "../components/Button/Button"
+import InlineContainer from '../containers/InlineContainer/InlineContainer';
+import ContactIcons from '../components/ContactIcons/ContactIcons';
 
 function About() {
   return (

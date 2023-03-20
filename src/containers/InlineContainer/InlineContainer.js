@@ -1,4 +1,4 @@
-import styles from "../styles/InlineContainer.module.css"
+import styles from './InlineContainer.module.css';
 
 const InlineContainer = (props) => {
     return(

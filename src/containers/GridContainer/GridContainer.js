@@ -1,5 +1,5 @@
-import styles from "../styles/GridContainer.module.css"
-import common from "../styles/Common.module.css"
+import styles from './GridContainer.module.css';
+import common from '../../styles/Common.module.css';
 
 
 const GridContainer = (props) => {
