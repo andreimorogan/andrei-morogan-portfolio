@@ -1,5 +1,5 @@
-import React from "react";
-import '../styles/Body.css'
+import React from 'react';
+import './Body.css';
 
 const Body = (props) => {
     return (

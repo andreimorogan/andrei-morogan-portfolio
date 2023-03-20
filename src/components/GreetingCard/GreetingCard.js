@@ -1,5 +1,5 @@
-import styles from '../styles/GreetingCard.module.css';
-import common from "../styles/Common.module.css"
+import styles from './GreetingCard.module.css';
+import common from '../../styles/Common.module.css';
 
 const GreetingCard = () => {
     return (
